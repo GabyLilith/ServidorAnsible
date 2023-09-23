@@ -1,0 +1,86 @@
+/* Autor: Gabriela Lilith Quiroga Cleto
+    Fecha: 30/Agosto/2023 */
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: #EEEEEE;
+    margin-bottom: 20px;
+    margin-top:20px;
+    border-radius: 20px 20px 20px 20px;
+    flex-flow: row nowrap;
+    font-size: 15px;
+}
+
+body {
+    width: 960px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #3A98B9;
+    border-width: 5px;
+    width: 190px;
+    height: 180px;
+}
+
+section {
+    margin: 20px;
+}
+
+h4 {
+    margin: 0px;
+    font-size: 20px;
+}
+
+u {
+    color: #FF6E31;
+}
+
+.foto {
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.datos {
+    margin-top: 35px;
+}
+
+.sub1 {
+    color:#3A98B9;
+}
+
+.principal {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.section1 {
+    display: flex;
+    width: auto;
+    flex-flow: row nowrap;
+}
+
+.personal {
+    height: max-content;
+    flex: 1 auto;
+    background-color: #E8D5C4;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.experiencia {
+    height: max-content;
+    flex: 2 auto;
+    background-color: #FFF1DC;
+    border-radius: 20px 20px 20px 20px;
+}
